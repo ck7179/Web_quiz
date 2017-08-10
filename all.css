@@ -19,7 +19,7 @@ body {
     line-height: 1;
 }
 ol, ul {
-    
+    list-style: none;
 }
 blockquote, q {
     quotes: none;
@@ -51,7 +51,7 @@ table {
 #main{
     padding: 10px;
     padding-left: 20px;
-    line-height: 20px;
+    line-height: 30px;
     font-size: 10pt;
     font-family:Microsoft JhengHei;
 }
@@ -60,10 +60,13 @@ table {
     font-size: 12pt;
 }
 #img1{
-    width:50px;
+    width:100px;
+}
+ol{
+    display: block;
 }
 li{
-    margin: 15px;
+    margin: 20px;
 }
 .h1{
     font-size: 15pt;
